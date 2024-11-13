@@ -60,11 +60,11 @@
 	},
 	"sources": {
 		"exercise-contracts.sol": {
-			"keccak256": "0x8bf49e8f1165562eb1754bc84f70f5dbf1a3953aa871f73699cf917afcea9443",
+			"keccak256": "0x13ee3d394ca803717da371081a28f213372d90491229c92e5799280a8789b075",
 			"license": "SEE LICENSE IN LICENSE",
 			"urls": [
-				"bzz-raw://64dad28af5bcbf5d8b47afc4d1a0f640e634cb5794f4fea7bad711081041545a",
-				"dweb:/ipfs/QmRdUKdWwKzkdVZMag2MvZt5HWA1ULEy5sXStKQE9ytLwK"
+				"bzz-raw://f733b7be9e2631fc01daba2a45ed4737430402e33c17dda008b11e5ab506f9b8",
+				"dweb:/ipfs/QmR8vQXUQkRRABDhd8JiWjKMzNnuLrcrtQkARGCXpoVK65"
 			]
 		}
 	},

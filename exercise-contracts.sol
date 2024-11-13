@@ -8,10 +8,11 @@ contract SimpleStorage {
     bool switchOn = true;
 
     function set(uint x) public {
-        storedData = x;
+        storedData = x * 5;
     }
 
     function get() public view returns (uint){
+
         return storedData;
     }
 }
