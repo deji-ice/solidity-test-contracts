@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "get",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "x",
+						"type": "uint256"
+					}
+				],
+				"name": "set",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"exercise-contracts.sol": "SimpleStorage"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"exercise-contracts.sol": {
+			"keccak256": "0x8bf49e8f1165562eb1754bc84f70f5dbf1a3953aa871f73699cf917afcea9443",
+			"license": "SEE LICENSE IN LICENSE",
+			"urls": [
+				"bzz-raw://64dad28af5bcbf5d8b47afc4d1a0f640e634cb5794f4fea7bad711081041545a",
+				"dweb:/ipfs/QmRdUKdWwKzkdVZMag2MvZt5HWA1ULEy5sXStKQE9ytLwK"
+			]
+		}
+	},
+	"version": 1
+}

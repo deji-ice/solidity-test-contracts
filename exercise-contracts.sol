@@ -3,7 +3,7 @@ pragma solidity ^0.8.26;
 
 contract SimpleStorage {
     // write all the code here
-    uint storedData = 10;
+    uint storedData;
     string name = "John";
     bool switchOn = true;
 
