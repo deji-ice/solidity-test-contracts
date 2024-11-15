@@ -16,3 +16,14 @@ contract SimpleStorage {
         return storedData;
     }
 }
+
+contract NameStorage{
+    string name;
+
+    function set(string memory x) public{
+        name = x;
+    }
+    function get() public view returns(string memory){
+        return name;
+    }
+}

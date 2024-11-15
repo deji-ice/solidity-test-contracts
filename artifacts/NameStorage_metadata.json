@@ -10,9 +10,9 @@
 				"name": "get",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "string",
 						"name": "",
-						"type": "uint256"
+						"type": "string"
 					}
 				],
 				"stateMutability": "view",
@@ -21,9 +21,9 @@
 			{
 				"inputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "string",
 						"name": "x",
-						"type": "uint256"
+						"type": "string"
 					}
 				],
 				"name": "set",
@@ -45,7 +45,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"exercise-contracts.sol": "SimpleStorage"
+			"exercise-contracts.sol": "NameStorage"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
