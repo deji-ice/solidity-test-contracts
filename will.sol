@@ -7,7 +7,7 @@ address owner;
 uint fortune;
 bool isDeceased;
 
-constructor() payable public {
+constructor() payable {
 owner = msg.sender;
 fortune = msg.value;
 isDeceased= false;
@@ -26,11 +26,14 @@ modifier mustBeDeceased{
 mapping(address => uint ) inheritance;
 
 function setInheritance(address payable wallet, uint amount) public onlyOwner{
+ require(amount <= fortune, "Amount exceeds the available fortune.");
   familyWallets.push(wallet);
   inheritance[wallet]= amount;
 }
 function payout() mustBeDeceased onlyOwner private {
+
 for(uint i =0; i < familyWallets.length; i++){
+    
     familyWallets[i].transfer(inheritance[familyWallets[i]]);
 }
 }
