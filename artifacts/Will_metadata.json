@@ -9,6 +9,31 @@
 				"inputs": [],
 				"stateMutability": "payable",
 				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "desceased",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "wallet",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "setInheritance",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -39,11 +64,11 @@
 	},
 	"sources": {
 		"will.sol": {
-			"keccak256": "0xe145871aa82e53723d15b8350c0e8e8bd839cf3310260743844d95063a6faec6",
+			"keccak256": "0x166984e4727591c1b3e0a11e56facd1ad1dcc6fb7009e3304f54cee4c61d2bac",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://98b138608bdaef07bcc11fbcde2328e30c25a6075aeb35aa9140b8419ac06344",
-				"dweb:/ipfs/QmNQsU7RrpWs8bRGEoZdv5MdYsPcBzY4StWbD6ZHp5H2CP"
+				"bzz-raw://cc7f074a8c8c31f9e292b103e92eab6fa071a0f4dca18441b33ad4bbfe138e08",
+				"dweb:/ipfs/QmYcpHn35ayHmVr6SnG5nLyitXUfCDTDvYGrMuS47SQxqJ"
 			]
 		}
 	},
