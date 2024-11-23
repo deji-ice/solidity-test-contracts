@@ -18,20 +18,24 @@ contract Coin {
      }
 
     function mint(address receiver, uint amount) onlyMinter public{
+        require(receiver != address(0), "Invalid receiver address");
         balances[receiver] += amount;
     }
 
     error insufficientBalance(uint requested, uint available);
 
-    function send(address receiver, uint amount)payable public  {
-        if(balances[msg.sender] < amount)
+    function send(address receiver, uint amount) public  {
+        uint senderBalance = balances[msg.sender];
+        if(senderBalance < amount)
             revert insufficientBalance({
                 requested: amount,
-                available: balances[msg.sender]
+                available: senderBalance
             });
         
-        balances[msg.sender] -= amount;
+        balances[msg.sender] = senderBalance - amount;
         balances[receiver] += amount;
+        
+        emit Sent(msg.sender, receiver, amount);
     }
 
 }
