@@ -8,7 +8,6 @@ contract Coin {
 
     constructor(){
         minter = msg.sender;
-
     }
      event Sent(address from, address to, uint amount);
   
@@ -18,7 +17,7 @@ contract Coin {
      }
 
     function mint(address receiver, uint amount) onlyMinter public{
-        require(receiver != address(0), "Invalid receiver address");
+        require(receiver == address(0), "Invalid receiver address");
         balances[receiver] += amount;
     }
 

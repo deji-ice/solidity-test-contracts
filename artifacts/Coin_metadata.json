@@ -116,7 +116,7 @@
 				],
 				"name": "send",
 				"outputs": [],
-				"stateMutability": "payable",
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -148,11 +148,11 @@
 	},
 	"sources": {
 		"subCurrency.sol": {
-			"keccak256": "0xc4b25929f10cc5c3e59db62475a44fc3bcce74633036095690304b5d1ae6258f",
+			"keccak256": "0x992367878b6ce27b4650e5ed789678e210ac0ab0921a1e31b72725101b9d9801",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://ec88d6bbefbdefe7673f332a6e52b8a01ba703bec4d7268c2fd80131d7c6e204",
-				"dweb:/ipfs/QmcRrpm7Vq4D67RDSPu732ogAGRV8e2PieKY2yETj8mUML"
+				"bzz-raw://7b1447b1e7ffdb0006af587ff935bdb322992516c2a0fb624fc3fb09cc61ee0a",
+				"dweb:/ipfs/Qmb7aJHKV7ut3zdrnk6mf3SpzjNLpm79V9SxJZHmPVaaGr"
 			]
 		}
 	},
